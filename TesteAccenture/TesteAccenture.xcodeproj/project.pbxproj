@@ -15,6 +15,24 @@
 		EF6949372404463B0056A5EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF6949352404463B0056A5EF /* LaunchScreen.storyboard */; };
 		EF6949422404463B0056A5EF /* TesteAccentureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6949412404463B0056A5EF /* TesteAccentureTests.swift */; };
 		EF69494D2404463B0056A5EF /* TesteAccentureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF69494C2404463B0056A5EF /* TesteAccentureUITests.swift */; };
+		EF69495D2404468C0056A5EF /* AppRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF69495C2404468C0056A5EF /* AppRoute.swift */; };
+		EF69495F240446AD0056A5EF /* GeneralRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF69495E240446AD0056A5EF /* GeneralRoute.swift */; };
+		EF69496A240446EC0056A5EF /* MainConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF694962240446EC0056A5EF /* MainConfiguration.swift */; };
+		EF69496B240446EC0056A5EF /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF694963240446EC0056A5EF /* MainPresenter.swift */; };
+		EF69496C240446EC0056A5EF /* MainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF694964240446EC0056A5EF /* MainRouter.swift */; };
+		EF69496D240446EC0056A5EF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF694965240446EC0056A5EF /* MainViewController.swift */; };
+		EF69496E240446EC0056A5EF /* MainInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF694966240446EC0056A5EF /* MainInteractor.swift */; };
+		EF69496F240446EC0056A5EF /* MainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF694967240446EC0056A5EF /* MainModel.swift */; };
+		EF694970240446EC0056A5EF /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF694968240446EC0056A5EF /* MainViewController.xib */; };
+		EF694971240446EC0056A5EF /* MainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF694969240446EC0056A5EF /* MainManager.swift */; };
+		EF69497A240446FB0056A5EF /* LoginConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF694972240446FB0056A5EF /* LoginConfiguration.swift */; };
+		EF69497B240446FB0056A5EF /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF694973240446FB0056A5EF /* LoginPresenter.swift */; };
+		EF69497C240446FB0056A5EF /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF694974240446FB0056A5EF /* LoginRouter.swift */; };
+		EF69497D240446FB0056A5EF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF694975240446FB0056A5EF /* LoginViewController.swift */; };
+		EF69497E240446FB0056A5EF /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF694976240446FB0056A5EF /* LoginInteractor.swift */; };
+		EF69497F240446FB0056A5EF /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF694977240446FB0056A5EF /* LoginModel.swift */; };
+		EF694980240446FB0056A5EF /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF694978240446FB0056A5EF /* LoginViewController.xib */; };
+		EF694981240446FB0056A5EF /* LoginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF694979240446FB0056A5EF /* LoginManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +67,24 @@
 		EF6949482404463B0056A5EF /* TesteAccentureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TesteAccentureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF69494C2404463B0056A5EF /* TesteAccentureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TesteAccentureUITests.swift; sourceTree = "<group>"; };
 		EF69494E2404463B0056A5EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF69495C2404468C0056A5EF /* AppRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRoute.swift; sourceTree = "<group>"; };
+		EF69495E240446AD0056A5EF /* GeneralRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralRoute.swift; sourceTree = "<group>"; };
+		EF694962240446EC0056A5EF /* MainConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainConfiguration.swift; sourceTree = "<group>"; };
+		EF694963240446EC0056A5EF /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
+		EF694964240446EC0056A5EF /* MainRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRouter.swift; sourceTree = "<group>"; };
+		EF694965240446EC0056A5EF /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		EF694966240446EC0056A5EF /* MainInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainInteractor.swift; sourceTree = "<group>"; };
+		EF694967240446EC0056A5EF /* MainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModel.swift; sourceTree = "<group>"; };
+		EF694968240446EC0056A5EF /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		EF694969240446EC0056A5EF /* MainManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainManager.swift; sourceTree = "<group>"; };
+		EF694972240446FB0056A5EF /* LoginConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginConfiguration.swift; sourceTree = "<group>"; };
+		EF694973240446FB0056A5EF /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		EF694974240446FB0056A5EF /* LoginRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
+		EF694975240446FB0056A5EF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		EF694976240446FB0056A5EF /* LoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
+		EF694977240446FB0056A5EF /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		EF694978240446FB0056A5EF /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		EF694979240446FB0056A5EF /* LoginManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +135,8 @@
 		EF6949292404463A0056A5EF /* TesteAccenture */ = {
 			isa = PBXGroup;
 			children = (
+				EF69495B240446790056A5EF /* Common */,
+				EF69495A2404466D0056A5EF /* Scenes */,
 				EF69492A2404463A0056A5EF /* AppDelegate.swift */,
 				EF69492C2404463A0056A5EF /* SceneDelegate.swift */,
 				EF69492E2404463A0056A5EF /* ViewController.swift */,
@@ -126,6 +164,54 @@
 				EF69494E2404463B0056A5EF /* Info.plist */,
 			);
 			path = TesteAccentureUITests;
+			sourceTree = "<group>";
+		};
+		EF69495A2404466D0056A5EF /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				EF694961240446DE0056A5EF /* Main */,
+				EF694960240446D90056A5EF /* Login */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		EF69495B240446790056A5EF /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				EF69495C2404468C0056A5EF /* AppRoute.swift */,
+				EF69495E240446AD0056A5EF /* GeneralRoute.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		EF694960240446D90056A5EF /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				EF694972240446FB0056A5EF /* LoginConfiguration.swift */,
+				EF694973240446FB0056A5EF /* LoginPresenter.swift */,
+				EF694974240446FB0056A5EF /* LoginRouter.swift */,
+				EF694975240446FB0056A5EF /* LoginViewController.swift */,
+				EF694976240446FB0056A5EF /* LoginInteractor.swift */,
+				EF694977240446FB0056A5EF /* LoginModel.swift */,
+				EF694978240446FB0056A5EF /* LoginViewController.xib */,
+				EF694979240446FB0056A5EF /* LoginManager.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		EF694961240446DE0056A5EF /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				EF694962240446EC0056A5EF /* MainConfiguration.swift */,
+				EF694963240446EC0056A5EF /* MainPresenter.swift */,
+				EF694964240446EC0056A5EF /* MainRouter.swift */,
+				EF694965240446EC0056A5EF /* MainViewController.swift */,
+				EF694966240446EC0056A5EF /* MainInteractor.swift */,
+				EF694967240446EC0056A5EF /* MainModel.swift */,
+				EF694968240446EC0056A5EF /* MainViewController.xib */,
+				EF694969240446EC0056A5EF /* MainManager.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +318,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF694980240446FB0056A5EF /* LoginViewController.xib in Resources */,
 				EF6949372404463B0056A5EF /* LaunchScreen.storyboard in Resources */,
 				EF6949342404463B0056A5EF /* Assets.xcassets in Resources */,
 				EF6949322404463A0056A5EF /* Main.storyboard in Resources */,
+				EF694970240446EC0056A5EF /* MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +347,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF69497E240446FB0056A5EF /* LoginInteractor.swift in Sources */,
+				EF694971240446EC0056A5EF /* MainManager.swift in Sources */,
 				EF69492F2404463A0056A5EF /* ViewController.swift in Sources */,
+				EF69497B240446FB0056A5EF /* LoginPresenter.swift in Sources */,
+				EF69496C240446EC0056A5EF /* MainRouter.swift in Sources */,
+				EF69495D2404468C0056A5EF /* AppRoute.swift in Sources */,
+				EF69496E240446EC0056A5EF /* MainInteractor.swift in Sources */,
 				EF69492B2404463A0056A5EF /* AppDelegate.swift in Sources */,
+				EF69496A240446EC0056A5EF /* MainConfiguration.swift in Sources */,
+				EF69497C240446FB0056A5EF /* LoginRouter.swift in Sources */,
+				EF69496F240446EC0056A5EF /* MainModel.swift in Sources */,
+				EF69495F240446AD0056A5EF /* GeneralRoute.swift in Sources */,
+				EF69496D240446EC0056A5EF /* MainViewController.swift in Sources */,
+				EF69497F240446FB0056A5EF /* LoginModel.swift in Sources */,
+				EF69497D240446FB0056A5EF /* LoginViewController.swift in Sources */,
+				EF69496B240446EC0056A5EF /* MainPresenter.swift in Sources */,
+				EF694981240446FB0056A5EF /* LoginManager.swift in Sources */,
+				EF69497A240446FB0056A5EF /* LoginConfiguration.swift in Sources */,
 				EF69492D2404463A0056A5EF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
